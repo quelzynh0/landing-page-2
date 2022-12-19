@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    font-size: 110%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: rgb(225, 225, 225);
+  }
+
+.cabecalho-conteudo-logo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho-menu-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.cabecalho-menu-item7 {
+    border: 1px solid #fff;
+    padding: 15px 32px;
+    background-color: rgb(225, 225, 225);
+    color: #fff;
+}
+  
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+
+.conteudo-principal {
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: rgb(225, 225, 225);
+  }
+
+p {
+    padding: 30px 0 30px 0;
+}
+
+.conteudo-principal-esquerdo{
+    margin: 0 100px 0 100px;
+    
+}
+
+.conteudo-principal-esquerdo-botao1 {
+    border: 1px solid #fff;
+    padding: 15px 32px;
+    background-color: rgb(225, 225, 225);
+    color: #fff;
+}
+
+.conteudo-principal-esquerdo-botao2 {
+    padding: 15px 8px 15px 32px;
+}
+
+.conteudo-principal-esquerdo-botoes {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-principal-direito{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 100px 100px 100px 0;
+}
+
+.conteudo-principal-direito-img {
+    width: 375; 
+    height: 375;
+    border-radius: 16px;
+}
+
+.rodape {
+    display: flex;
+    height: 90px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: rgb(233, 233, 233);
+  }
+
+.conteudo-rodape {
+    position: absolute;
+    top: 960px;
+    width: 1300px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    border-radius: 16px;
+    background-color: #fff;
+  }
